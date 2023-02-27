@@ -1,0 +1,119 @@
+html {
+	height: 100%;
+}
+
+body {
+	margin:0;
+	padding:0;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+a {
+	text-decoration:none;
+}
+
+header{
+	background-color: black;
+}
+
+header h1 {
+	padding: 5px 10px;
+	margin:0;
+}
+
+header h1 a {
+	color:red;
+}
+
+nav{
+	text-align:left;
+	background-color:lightgray;
+	border-bottom:1px solid gray;
+}
+
+nav li, nav a {
+	display:inline-block;
+}
+
+nav a:hover{
+	background-color:lightyellow;
+}
+
+nav a{
+	color:black;
+	padding: 10px 15px;
+}
+
+ul{
+	padding:0;
+	margin:0;
+}
+
+main{
+	float:left;
+	width:560px;
+	border-right: 1px solid #eeeeee;
+}
+
+aside{
+	float:left;
+	width:200px;
+	padding-bottom:10px;
+	padding-left: 4px;
+}
+
+footer{
+	clear:both;
+	text-align:center;
+	font-size:.8em;
+	padding-top:50px;
+}
+
+aside section a{
+	display:block;
+	padding: 6px;
+	border-bottom: 1px solid lightgray;
+	color:black;
+}
+
+#container, footer{
+	width:90%;
+	margin: 0 auto;
+	margin-bottom: 60px;
+}
+
+label{
+	display:inline-block;
+	width:150px;
+	text-align:right;
+}
+
+button{
+	margin-left:155px;
+	margin-top:10px;
+}
+
+.formSeparator{
+	margin-top:10px;
+}
+
+#logo{
+	float:right;
+	width:160px;
+	height:88px;
+}
+
+.liYellow{
+	background-color:lightyellow;
+}
+
+#records{
+	margin-left: 30px;
+	width: 80%;
+}
+
+#records div:nth-child(even){
+	background-color: lightgray;
+	display: block;
+	margin:5px 0px;
+}
